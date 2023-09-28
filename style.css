@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Space+Mono:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Martian Mono', monospace;
+    margin: 0;
+    background: url(./assets/pexels-life-of-pix-4291.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+p{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-container>div{
+    text-align:center;
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+
+
